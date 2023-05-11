@@ -1,0 +1,93 @@
+
+* {
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #09244B;
+}
+
+/* NAVBAR */
+.nav-link {
+    font-weight:500;
+    color: #526581;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #0095DA;
+    font-weight: 700;
+}
+
+.nav-link.active {
+    color: #0095DA !important;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-brand{
+    color: #09244B;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.nav-pic:hover,
+.nav-pic:focus{
+    color: #0095DA !important;
+    background-color: transparent;
+}
+
+.nav-pic.nav-link.active {
+    color: #0095DA !important;
+}
+/* END NAVBAR */
+
+
+
+/* HEADER */
+.textHeader {
+    color: #526581;
+    text-align: justify;
+}
+.Header{
+    font-size: 50px;
+}
+/* END HEADER */
+
+.icon-shop {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (min-width: 992px) {
+    .img-header{
+        width: 500px;
+        height: 280px;
+        background-size: cover;
+    }
+
+    .img-content1{
+        margin: 0 !important;
+        width: 475px;
+        height: 450px;
+        background-size: cover;
+    }
+
+    .pop-hello{
+        width: 100px;
+        height: 65px;
+    }
+    .row-cols-2 {
+        margin: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
