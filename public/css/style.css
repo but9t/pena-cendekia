@@ -308,6 +308,40 @@ p {
   margin-left: 0px !important;
 }
 
+
+h6 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+h6:before,
+h6:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h6:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h6:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.link-social {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
 }
 /* END CSS WIDTH 992PX */
 
@@ -319,7 +353,8 @@ h1,h5,p {
 }
 
 .Header{
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 .textHeader2{
   margin-top: 0px;
@@ -434,6 +469,42 @@ h1,h5,p {
   background: #007AFF;
 }
 
-/* END CONTENT 2 */
+h6 {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+h6:before,
+h6:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h6:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h6:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.link-social {
+  align-items: center;
+}
+
+
+
 
 }
+
+/* END CONTENT 2 */
+
+

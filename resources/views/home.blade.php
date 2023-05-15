@@ -115,16 +115,16 @@
 
       <!--Content 3-->
       <div class="content container mt-5 p-0">
-        <div class="container text-start">
+        <div class="text-start">
           <img class="pop-hello mb-3" src="{{ asset('img/services.png') }}" alt="">
           <h1 class="fw-medium fs-2">Layanan <strong class="fw-semibold"> Pena Cendekia</strong></h1>
           <h5 class="textHeader fw-medium fs-5">Enam Layanan Pena Cendekia</h5>
-          <hr class="my-4">
+          <hr class="container my-4">
 
           <!--Services-->      
           <div class="container row p-0">
             <div class="col-lg-4 col-md-6 col-sm-12 my-2">
-              <div class="card">
+              <div class="container card">
                 <div class="card-body text-start px-4" style="display:inline-block;vertical-align:top;">
                   <img class="ic-layanan" src="{{ asset('img/icon-service/penerbitan.png') }}" alt="">
                   <div class="card-title" style="display:inline-block;">
@@ -230,18 +230,18 @@
 
       <!--Content 4-->
       <div class="container mt-5 p-0">
-          <div class="container col text-start">
+          <div class="col text-start">
             <img class="pop-hello mb-3" src="{{ asset('img/blog.png') }}" alt="">
             <h1 class="fw-medium fs-2">Artikel <strong class="fw-semibold">Pena Cendekia</strong></h1>
-              <div class="container row row-cols-2 ">
+              <div class="container row row-cols-2 p-0 m-0">
                 <div class="col p-0"><h5 class="textHeader fw-medium fs-5">Halaman Artikel</h5></div>
                 <div class="col p-0"><a class="text-decoration-none fw-medium" href=""><p class="fs-6 text-end">Lihat Semua Artikel <img class="ic-arrow" src="{{ asset('img/arrow-right.png') }}" alt=""></p></a></div>
               </div>
             </div>
           </div>   
 
-      <hr class="container my-3">
-      <div class="container row">
+      <hr class="my-3">
+      <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 my-2">
           <div class="card">
             <img class="img-article px-4 pt-4" src="{{ asset('img/image-article/1.png') }}" alt="">
