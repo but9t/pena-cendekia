@@ -16,5 +16,23 @@ Route::get('/', function () {
     return view('home', [
         "title" => "Home"
     ]);
+
 });
+
+Route::get('/tentang', function () {
+    return view('tentang', [
+        "title" => "Tentang Kami"
+    ]);
+}); 
+Route::get('/blog', function () {
+    return view('blog', [
+        "title" => "Blog"
+    ]);
+}); 
+
+Route::get('/kontak', function () {
+    return view('kontak', [
+        "title" => "Kontak Kami"
+    ]);
+}); 
 
