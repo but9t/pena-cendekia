@@ -11,13 +11,13 @@
     <link rel = "icon" href = "{{ asset('img/logo.png') }}" type = "image/x-icon">
     @stack('css')
     </head>
-  <body id="home">
+    <body id="home">
     <!-- Navbar -->
     @include('partials.navbar')
       <!--End Navbar -->
       
       <!--Header-->
-      <div class="container text-center mt-5">
+      <div class="container text-center mt-5 p-0">
         @yield('home')
       </div>
       <!--End Content 5-->
@@ -27,7 +27,7 @@
         <footer class="py-5 px-5">
           <div class="row">
             <div class="col-6 col-md-2 col-sm-4 mb-3">
-              <h5 class="text-light fw-semibold p-0">Resources</h5>
+              <h4 class="text-light fw-semibold p-0 fs-5">Resources</h4>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2 fw-lighter"><a href="#" class="nav-link p-0 text-light">Beranda</a></li>
                 <li class="nav-item mb-2 fw-lighter"><a href="#" class="nav-link p-0 text-light">Blog</a></li>
@@ -37,7 +37,7 @@
             </div>
       
             <div class="col-6 col-md-2 col-sm-4 mb-3">
-              <h5 class="text-light fw-semibold">Company</h5>
+              <h4 class="text-light fw-semibold fs-5">Company</h4>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2 fw-lighter"><a href="#" class="nav-link p-0 text-light">Tentang Kami</a></li>
                 <li class="nav-item mb-2 fw-lighter"><a href="#" class="nav-link p-0 text-light">Mengapa Pilih Kami?</a></li>
@@ -46,7 +46,7 @@
             </div>
       
             <div class="col-6 col-md-2 col-sm-4 mb-3">
-              <h5 class="text-light fw-semibold">Product</h5>
+              <h4 class="text-light fw-semibold fs-5">Product</h4>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2 fw-lighter"><a href="#" class="nav-link p-0 text-light">Artikel</a></li>
                 <li class="nav-item mb-2 fw-lighter"><a href="#" class="nav-link p-0 text-light">Buku</a></li>

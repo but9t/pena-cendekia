@@ -2,11 +2,11 @@
 
 @section('home')
  <!--Content 4-->
- <div class="container mt-5 p-0">
+ <div class="container mt-5 ">
     <div class="col text-start">
       <img class="pop-hello mb-3" src="{{ asset('img/blog.png') }}" alt="">
       <h1 class="fw-medium fs-2">Artikel <strong class="fw-semibold">Pena Cendekia</strong></h1>
-        <div class="container row row-cols-2 p-0 m-0">
+        <div class="container row ">
           <div class="col p-0"><h5 class="textHeader fw-medium fs-5">Halaman Artikel</h5></div>
         </div>
       </div>

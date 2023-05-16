@@ -2,17 +2,15 @@
 
 @section('home')
 <!-- Beranda -->
-      <div class="container text-center mt-5">
+      <div class="container text-center mt-5 p-0">
         <div class="row row-cols-2 mx-1">
-          <div class="col p-0">            
+          <div class="col ">            
             <div class="text-start">
             <h1 class="Header fw-bold my-4">
                 Menerbitkan Buku Cetak Dengan Kualitas Terbaik
-            </h1>
-            
-            <p class="textHeader fw-normal ">Buku adalah jendela dunia, dan percetakan adalah pintu masuk ke dalamnya. <br> Di balik setiap halaman buku yang kita pegang, terdapat kerja keras dari para ahli percetakan yang menyempurnakan setiap detail dari desain hingga cetakan.</p>
+            </h1> 
+            <p class="textHeader fw-normal">Buku adalah jendela dunia, dan percetakan adalah pintu masuk ke dalamnya. <br> Di balik setiap halaman buku yang kita pegang, terdapat kerja keras dari para ahli percetakan yang menyempurnakan setiap detail dari desain hingga cetakan.</p>
             <div class="d-grid gap-2">
-              
                 <button class="btn btn-primary mt-2" type="button" style="background-color:#0095DA !important; border-color:#0095DA">Lihat Selengkapnya</button>
               </div>
             </div>
@@ -45,23 +43,30 @@
       <!--End Content 1-->
 
       <!--Content 2-->
-      <div class="content container mt-5">
+      <div class="container mt-5">
         <div class="row p-0 m-0">
-          <div class="col text-start">
+          <div class="col text-start p-0">
           <img class="pop-hello mb-3" src="{{ asset('img/produk.png') }}" alt="">
           <h1 class="fw-medium fs-2">Produk <strong class="fw-semibold"> Pena Cendekia</strong></h1>
           <h5 class="textHeader fw-medium fs-5">Kamu Bisa Mendapatkan Produk Pena Cendekia</h5>
           <div class="text-start">
-            <hr class="my-4 me-4">
+            <hr class="my-4">
             <p class="textHeader fs-6 fw-normal me-4">Ingin karya tulisanmu menjadi lebih bermakna dan terlihat profesional? Pena Cendekia hadir untuk membantumu! Percetakan kami menyediakan layanan percetakan berkualitas tinggi untuk berbagai jenis tulisan, mulai dari buku, jurnal, brosur, hingga kartu nama. Dengan teknologi modern dan tenaga ahli percetakan yang handal, Pena Cendekia siap membantu mewujudkan setiap ide dan karya tulisanmu menjadi produk cetakan yang istimewa. Percayakan karya tulisanmu hanya pada Pena Cendekia, percetakan yang mengutamakan kualitas dan kepuasan pelanggan.</p>        
-            <p class="textHeader2 fs-6 fw-medium" >Beli Sekarang</p>
+            <p class="fs-6 mt-4 fw-medium" >Beli Sekarang</p>
 
-        <div class="ic-shop text-center">
-          <div class="ic-shop row row-cols-3">
-            <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-tokped.png') }}" alt=""></a></div>
+        <div class="ic-shop text-left">
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2">
+              <div class="container p-0">
+                <a href=""><img class="icon-shop me-2" src="{{ asset('img/ic-tokped.png') }}" alt=""></a>
+                <a href=""><img class="icon-shop me-2" src="{{ asset('img/ic-shopee.png') }}" alt=""></a>
+                <a href=""><img class="icon-shop me-2" src="{{ asset('img/ic-bukalapak.png') }}" alt=""></a>
+
+              </div>
+            </div>
+            {{-- <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-tokped.png') }}" alt=""></a></div>
             <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-shopee.png') }}" alt=""></a></div>
-            <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-bukalapak.png') }}" alt=""></a></div>
-          </div>
+            <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-bukalapak.png') }}" alt=""></a></div> --}}
+          
           </div>
           </div>
         </div>
@@ -114,17 +119,17 @@
       <!--End Content 2-->
 
       <!--Content 3-->
-      <div class="content container mt-5 p-0">
-        <div class="text-start">
+      <div class="content container mt-5">
+        <div class="services text-start">
           <img class="pop-hello mb-3" src="{{ asset('img/services.png') }}" alt="">
           <h1 class="fw-medium fs-2">Layanan <strong class="fw-semibold"> Pena Cendekia</strong></h1>
           <h5 class="textHeader fw-medium fs-5">Enam Layanan Pena Cendekia</h5>
           <hr class="container my-4">
 
           <!--Services-->      
-          <div class="container row p-0">
+          <div class="container-services row p-0">
             <div class="col-lg-4 col-md-6 col-sm-12 my-2">
-              <div class="container card">
+              <div class="card">
                 <div class="card-body text-start px-4" style="display:inline-block;vertical-align:top;">
                   <img class="ic-layanan" src="{{ asset('img/icon-service/penerbitan.png') }}" alt="">
                   <div class="card-title" style="display:inline-block;">
@@ -229,12 +234,12 @@
 
 
       <!--Content 4-->
-      <div class="container mt-5 p-0">
-          <div class="col text-start">
+      <div class="container mt-5 ">
+          <div class="col text-start ">
             <img class="pop-hello mb-3" src="{{ asset('img/blog.png') }}" alt="">
             <h1 class="fw-medium fs-2">Artikel <strong class="fw-semibold">Pena Cendekia</strong></h1>
-              <div class="container row row-cols-2 p-0 m-0">
-                <div class="col p-0"><h5 class="textHeader fw-medium fs-5">Halaman Artikel</h5></div>
+              <div class=" row row-cols-2 col-sm-12 p-0 m-0">
+                <div class="col p-0"><h5 class="textHeader fw-medium fs-5 text-start">Halaman Artikel</h5></div>
                 <div class="col p-0"><a class="text-decoration-none fw-medium" href=""><p class="fs-6 text-end">Lihat Semua Artikel <img class="ic-arrow" src="{{ asset('img/arrow-right.png') }}" alt=""></p></a></div>
               </div>
             </div>
