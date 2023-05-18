@@ -670,9 +670,260 @@ button.contact_form_submit {
 /* KONTAK*/
 
 
+}
+/* END CONTENT 2 */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .img-header{
+    background-position: center;
+    padding-right: 50px;
+    margin-top: 50px;
+    width: 500px;
+    height: 280px;
+    background-size: cover;
+}
+
+.Header{
+  font-size: 30px;
+  text-align: start !important;
+}
+  .pop-hello {
+    width: 150px;
+    height: 100px;
+  }
+  .img-content1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 50%;
+  }
+  .icon-shop {
+    width: 40px;
+    height: 40px;
+}
+
+h1,h5,p {
+  justify-content: left;
+  text-align: center !important;
+}
+.h1-left {
+  text-align: left !important;
+}
+.buy-now {
+  text-align: left !important;
+}
+
+.six-service {
+  text-align: center !important;
+  color: #526581;
+}
+
+.footer {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.row{
+display: flex !important;
+}
+
+.container-services{
+text-align: center !important;
+align-items: center !important;
+}
+.card {
+ margin-left: 10px !important;
+ margin-right: 10px !important;
+}
+
+hr {
+max-width: 50% !important;
+margin: auto !important;
+}
+
+.textHeader {
+color: #526581;
+text-align: start !important;
+margin: 0px !important;
+}
+
+.text-mobile{
+align-items: center !important;
+text-align: center !important; 
+}
+
+.ic-shop {
+text-align: center !important;
+}
+
+/* CONTENT 2 */
+.slider{
+width: 350px;
+height: 400px;
+border-radius: 10px;
+overflow: hidden;
+margin-top: 200px;
+}
+
+.slides{
+width: 600%;
+height: 400px;
+display: flex;
+}
+
+.slides input{
+display: none;
+}
+
+.slide{
+width: 21%;
+transition: 2s;
+}
+
+.slide img{
+width: 300px;
+height: 350px;
+}
+
+
+/*css for automatic navigation*/
+.navigation-auto{
+position: absolute;
+display: flex;
+width: 350px;
+justify-content: center;
+margin-top: 300px;
+}
+
+.navigation-auto div{
+color: white;
+background-color: white;
+padding: 5px;
+border-radius: 10px;
+transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+background: #007AFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+background: #007AFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+background: #007AFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+background: #007AFF;
+}
+
+h6 {
+overflow: hidden;
+text-align: center;
+color: white;
+font-weight: normal;
+}
+
+h6:before,
+h6:after {
+background-color: white;
+content: "";
+display: inline-block;
+height: 3px;
+position: relative;
+vertical-align: middle;
+width: 50%;
+}
+
+h6:before {
+right: 0.5em;
+margin-left: -50%;
+}
+
+h6:after {
+left: 0.5em;
+margin-right: -50%;
+}
+.link-social {
+align-items: center;
+}
+
+/* KONTAK*/
+.right_conatct_social_icon{
+background: #09244B;
+}
+.contact_us{
+padding: 0px 0px;
+}
+
+.contact_inner{
+background-color: #fff;
+position: relative;
+border-radius: 25px;
+}
+.contact_field{
+padding-left: 20px;
+padding-right: 20px;
+}
+.right_conatct_social_icon{
+height: 100%;
+width: 150%;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.contact_field p{
+font-size: 14px;
+letter-spacing: 1px;
+text-align: center;
+}
+.contact_field .form-control{
+margin-top: 20px;
+font-family:'Inter' ;
 
 }
 
-/* END CONTENT 2 */
+.contact_field .form-control:focus{
+box-shadow: none;
+outline: none;
+border-bottom: 2px solid #0095DA;
+}
+.contact_field .form-control::placeholder{
+font-size: 13px;
+letter-spacing: 1px;
+}
 
+button.contact_form_submit {
+background: #0095DA;
+border: none;
+color: #fff;
+padding: 10px 15px;
+width: 100%;
+margin-top: 25px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 14px;
+letter-spacing: 2px;
+}
+
+
+.map_inner h4, .map_inner p{
+text-align: center
+}
+
+.map_bind{
+border-radius: 50px !important;
+margin-top: 20px !important;
+width: 100%; 
+height: 50%; 
+margin:0px auto; 
+display:inline-block
+}
+/* KONTAK*/
+}
 

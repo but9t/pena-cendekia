@@ -4,7 +4,7 @@
 <!-- Beranda -->
       <div class="container text-center mt-5 p-0">
         <div class="row row-cols-2 mx-1">
-          <div class="col ">            
+          <div class="col-lg-6 col-md-6 ">            
             <div class="text-start">
             <h1 class="Header fw-bold my-4">
                 Menerbitkan Buku Cetak Dengan Kualitas Terbaik
@@ -15,7 +15,7 @@
               </div>
             </div>
         </div>
-          <div class="col">
+          <div class="col-lg-6 col-md-6">
             <div class="mt-4">
               <img class="img-header" src="{{ asset('img/home-img.png') }}" alt="" >
             </div>
@@ -47,12 +47,12 @@
         <div class="row p-0 m-0">
           <div class="col text-start p-0">
           <img class="pop-hello mb-3" src="{{ asset('img/produk.png') }}" alt="">
-          <h1 class="fw-medium fs-2">Produk <strong class="fw-semibold"> Pena Cendekia</strong></h1>
+          <h1 class="h1-left fw-medium fs-2">Produk <strong class="fw-semibold"> Pena Cendekia</strong></h1>
           <h5 class="textHeader fw-medium fs-5">Kamu Bisa Mendapatkan Produk Pena Cendekia</h5>
           <div class="text-start">
             <hr class="my-4">
             <p class="textHeader fs-6 fw-normal me-4">Ingin karya tulisanmu menjadi lebih bermakna dan terlihat profesional? Pena Cendekia hadir untuk membantumu! Percetakan kami menyediakan layanan percetakan berkualitas tinggi untuk berbagai jenis tulisan, mulai dari buku, jurnal, brosur, hingga kartu nama. Dengan teknologi modern dan tenaga ahli percetakan yang handal, Pena Cendekia siap membantu mewujudkan setiap ide dan karya tulisanmu menjadi produk cetakan yang istimewa. Percayakan karya tulisanmu hanya pada Pena Cendekia, percetakan yang mengutamakan kualitas dan kepuasan pelanggan.</p>        
-            <p class="fs-6 mt-4 fw-medium" >Beli Sekarang</p>
+            <p class="buy-now fs-6 mt-4 fw-medium" >Beli Sekarang</p>
 
         <div class="ic-shop text-left">
             <div class="col-lg-4 col-md-6 col-sm-12 my-2">
@@ -62,11 +62,7 @@
                 <a href=""><img class="icon-shop me-2" src="{{ asset('img/ic-bukalapak.png') }}" alt=""></a>
 
               </div>
-            </div>
-            {{-- <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-tokped.png') }}" alt=""></a></div>
-            <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-shopee.png') }}" alt=""></a></div>
-            <div class="col-lg-2 p-0"><a href=""><img class="icon-shop" src="{{ asset('img/ic-bukalapak.png') }}" alt=""></a></div> --}}
-          
+            </div>         
           </div>
           </div>
         </div>
@@ -123,7 +119,7 @@
         <div class="services text-start">
           <img class="pop-hello mb-3" src="{{ asset('img/services.png') }}" alt="">
           <h1 class="fw-medium fs-2">Layanan <strong class="fw-semibold"> Pena Cendekia</strong></h1>
-          <h5 class="textHeader fw-medium fs-5">Enam Layanan Pena Cendekia</h5>
+          <h5 class="six-service  fw-medium fs-5">Enam Layanan Pena Cendekia</h5>
           <hr class="container my-4">
 
           <!--Services-->      
@@ -312,23 +308,23 @@
         <h4 class="fw-medium text-secondary fs-5">Mengapa Harus Memilih Kami?</h4>
         <h1 class="fw-medium fs-2 mb-5">Penerbit <strong class="fw-semibold"> Pena Cendekia</strong></h1>
         <div class="container text-center">
-          <div class="row row-col-lg-4 col-md-12">
-            <div class="col">
+          <div class="row row-col-lg-4 ">
+            <div class="col-sm-12 col-md-6">
               <img class="img-choose" src="{{ asset('img/image-services/clock.png') }}" alt="" style="width: 110px; height: 145px;">
               <h5 class="mt-3 fw-medium">Proses Cepat & Pasti</h5>
               <p class="fw-normal">Pelayanan yang ramah dan cepat adalah prioritas kami.</p>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6">
               <img class="img-choose" src="{{ asset('img/image-services/distribusi.png') }}" alt="" style="width: 130px; height: 145px;">
               <h5 class="mt-3 fw-medium">Distribusi Luas</h5>
               <p class="fw-normal">Buku-buku yang diterbitkan oleh Kelompok Pena Cendekia dapat ditemukan di toko buku offline dan online seluruh Indonesia.</p>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6">
               <img class="img-choose" src="{{ asset('img/image-services/akuisisi.png') }}" alt="" style="width: 145px; height: 145px;">
               <h5 class="mt-3 fw-medium">Royalti & Akuisisi</h5>
               <p class="fw-normal">Dapatkan Biaya Royalti dan Akuisisi dengan Menerbitkan Buku bersama Kelompok Pena Cendekia.</p>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6">
               <img class="img-choose" src="{{ asset('img/image-services/perjanjian.png') }}" alt="" style="width: 150px; height: 145px;">
               <h5 class="mt-3 fw-medium">Perjanjian yang Jelas</h5>
               <p class="fw-normal">Segala perjanjian dan kerja sama dalam bentuk apapun akan diatur melalui Surat Perjanjian Kerjasama (SPK) sehingga setiap perjanjian terjamin aman.</p>
