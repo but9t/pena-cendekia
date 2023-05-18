@@ -4,9 +4,9 @@
 <!-- Beranda -->
       <div class="container text-center mt-5 p-0">
         <div class="row mx-1">
-          <div class="col-lg-6 col-md-6 ">            
+          <div class="col-lg-6 col-md-6 mb-5">            
             <div class="text-start">
-            <h1 class="Header fw-bold my-4">
+            <h1 class="Header fw-bold mb-4">
                 Menerbitkan Buku Cetak Dengan Kualitas Terbaik
             </h1> 
             <p class="textHeader fw-normal">Buku adalah jendela dunia, dan percetakan adalah pintu masuk ke dalamnya. <br> Di balik setiap halaman buku yang kita pegang, terdapat kerja keras dari para ahli percetakan yang menyempurnakan setiap detail dari desain hingga cetakan.</p>
@@ -16,7 +16,7 @@
             </div>
         </div>
           <div class="col-lg-6 col-md-6">
-            <div class="mt-4">
+            <div class="">
               <img class="img-header" src="{{ asset('img/home-img.png') }}" alt="" >
             </div>
           </div>
@@ -309,22 +309,22 @@
         <h1 class="fw-medium fs-2 mb-5">Penerbit <strong class="fw-semibold"> Pena Cendekia</strong></h1>
         <div class="container text-center">
           <div class="row row-col-lg-2 ">
-            <div class=" col-sm-12 col-md-6">
+            <div class=" col-sm-12 col-md-6 col-lg-3">
               <img class="img-choose" src="{{ asset('img/image-services/clock.png') }}" alt="" style="width: 110px; height: 145px;">
               <h5 class="mt-3 fw-medium">Proses Cepat & Pasti</h5>
               <p class="fw-normal">Pelayanan yang ramah dan cepat adalah prioritas kami.</p>
             </div>
-            <div class=" col-sm-12 col-md-6">
+            <div class=" col-sm-12 col-md-6 col-lg-3">
               <img class="img-choose" src="{{ asset('img/image-services/distribusi.png') }}" alt="" style="width: 130px; height: 145px;">
               <h5 class="mt-3 fw-medium">Distribusi Luas</h5>
               <p class="fw-normal">Buku-buku yang diterbitkan oleh Kelompok Pena Cendekia dapat ditemukan di toko buku offline dan online seluruh Indonesia.</p>
             </div>
-            <div class=" col-sm-12 col-md-6">
+            <div class=" col-sm-12 col-md-6 col-lg-3">
               <img class="img-choose" src="{{ asset('img/image-services/akuisisi.png') }}" alt="" style="width: 145px; height: 145px;">
               <h5 class="mt-3 fw-medium">Royalti & Akuisisi</h5>
               <p class="fw-normal">Dapatkan Biaya Royalti dan Akuisisi dengan Menerbitkan Buku bersama Kelompok Pena Cendekia.</p>
             </div>
-            <div class=" col-sm-12 col-md-6">
+            <div class=" col-sm-12 col-md-6 col-lg-3">
               <img class="img-choose" src="{{ asset('img/image-services/perjanjian.png') }}" alt="" style="width: 150px; height: 145px;">
               <h5 class="mt-3 fw-medium">Perjanjian yang Jelas</h5>
               <p class="fw-normal">Segala perjanjian dan kerja sama dalam bentuk apapun akan diatur melalui Surat Perjanjian Kerjasama (SPK) sehingga setiap perjanjian terjamin aman.</p>
