@@ -3,7 +3,7 @@
 @section('home')
 <!-- Beranda -->
       <div class="container text-center mt-5 p-0">
-        <div class="row row-cols-2 mx-1">
+        <div class="row mx-1">
           <div class="col-lg-6 col-md-6 ">            
             <div class="text-start">
             <h1 class="Header fw-bold my-4">

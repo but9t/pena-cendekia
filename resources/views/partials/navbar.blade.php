@@ -3,7 +3,7 @@
       <a class="navbar-brand" href="#">
         <img src="{{ asset('img/logo.png') }}" alt="Logo Pena Cendekia" width="50" height="30">
       </a>
-      <a class="navbar-brand" href="#">Pena Cendekia</a>
+      <a class="navbar-brand d-none d-md-block" href="#">Pena Cendekia</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
