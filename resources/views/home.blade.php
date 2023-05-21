@@ -48,7 +48,7 @@
           <div class="col text-start p-0">
           <img class="pop-hello mb-3" src="{{ asset('img/produk.png') }}" alt="">
           <h1 class="h1-left fw-medium fs-2">Produk <strong class="fw-semibold"> Pena Cendekia</strong></h1>
-          <h5 class="textHeader fw-medium fs-5">Kamu Bisa Mendapatkan Produk Pena Cendekia</h5>
+          <h5 class="textHeader2 fw-medium fs-5">Kamu Bisa Mendapatkan Produk Pena Cendekia</h5>
           <div class="text-start">
             <hr class="my-4">
             <p class="textHeader fs-6 fw-normal me-4">Ingin karya tulisanmu menjadi lebih bermakna dan terlihat profesional? Pena Cendekia hadir untuk membantumu! Percetakan kami menyediakan layanan percetakan berkualitas tinggi untuk berbagai jenis tulisan, mulai dari buku, jurnal, brosur, hingga kartu nama. Dengan teknologi modern dan tenaga ahli percetakan yang handal, Pena Cendekia siap membantu mewujudkan setiap ide dan karya tulisanmu menjadi produk cetakan yang istimewa. Percayakan karya tulisanmu hanya pada Pena Cendekia, percetakan yang mengutamakan kualitas dan kepuasan pelanggan.</p>        
@@ -191,7 +191,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 my-2">
               <div class="card">
                 <div class="card-body text-start px-4" style="display:inline-block;vertical-align:top;">
-                  <img class="ic-layanan" src="{{ asset('img/icon-service/buku.png') }}" alt="">
+                  <img class="ic-layanan" src="{{ asset('img/icon-service/cetak.png') }}" alt="">
                   <div class="card-title" style="display:inline-block;">
                     <h5 class="ms-3">Cetak Buku Berkualitas</h5>
                   </div>

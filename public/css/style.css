@@ -580,7 +580,7 @@ p {
         margin-right: -50%;
     }
     .link-social {
-        align-items: center;
+        display: none;
     }
 
     /* KONTAK*/
@@ -710,7 +710,7 @@ p {
   margin: auto !important;
   }
   
-  .textHeader {
+  .textHeader2 {
   color: #526581;
   text-align: start !important;
   margin: 0px !important;
