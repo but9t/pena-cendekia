@@ -29,6 +29,11 @@ Route::get('/blog', function () {
         "title" => "Blog"
     ]);
 }); 
+Route::get('/blog/{slug}', function () {
+    return view('detail-blog', [
+        "title" => "Detail Blog"
+    ]);
+}); 
 
 Route::get('/kontak', function () {
     return view('kontak', [
